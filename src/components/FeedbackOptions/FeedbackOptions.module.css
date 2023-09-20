@@ -1,0 +1,35 @@
+.options{
+    display: flex;
+    gap: 15px;
+}
+
+.btn{
+display: block;
+width: 100px;
+height: 35px;
+
+text-transform: capitalize;
+font-weight: 600;
+color: white;
+
+background-color: rgba(200, 114, 53, 0.67);
+border: 2px solid rgb(96, 51, 11);
+
+border-radius: 10px;
+
+cursor: pointer;
+}
+
+.btn:hover{
+    color: beige;
+
+    background-color: rgb(200, 119, 53);
+    border: 2px solid rgba(65, 40, 10, 0.507);
+}
+
+.btn:focus{
+    color: beige;
+
+    background-color: rgb(200, 119, 53);
+    border: 2px solid rgba(65, 40, 10, 0.507);
+}
